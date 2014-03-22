@@ -39,7 +39,7 @@ jQuery(function ($) {
 
                 document.title = $("#title").text();
 
-                _paq.push(['trackPageView', $("#title").text()]);
+                //_paq.push(['trackPageView', $("#title").text()]);
 
                 sizeForScroll();
 
