@@ -1,6 +1,6 @@
 # Slight 
 
-A minimal theme, powered by Ghost. 
+A minimal theme, powered by Ghost. Live Demo: (https://silvenga.com)
 
 Created from scratch with inspiration from Ms. Qian’s Crisp theme (http://kathyqian.com/) and Roryg’s Ghostwriter theme (https://github.com/roryg/ghostwriter). 
 
