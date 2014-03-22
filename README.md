@@ -16,7 +16,7 @@ Created from scratch with inspiration from Ms. Qian’s Crisp theme (http://kath
 
 ## Screenshots
 
-![](//store.silvenga.com/slight-screenshot.png)
+![](https://store.silvenga.com/slight-screenshot.png)
 
 ## Install
 
