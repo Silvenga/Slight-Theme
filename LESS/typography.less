@@ -1,0 +1,78 @@
+/**
+// Mixins
+**/
+
+.HeaderFont () {
+    font-family: @header_font;
+    line-height: 1.313em;
+}
+
+/**
+// Styles
+**/
+
+body {
+    margin: 0;
+    font-family: @default_font;
+    line-height: @golden + .1em; 
+}
+
+a {
+    text-decoration: none;
+    background: transparent;
+}
+
+    a:link, a:visited {
+    }
+
+    a:focus {
+        outline: thin dotted;
+    }
+
+    a:active,
+    a:hover {
+        outline: 0;
+    }
+
+.postcontent {
+    text-align: left;
+}
+
+// Classic typographic scale: if default 16px total size scale would be:
+// 9px, 10px, 11px, 12px, 16px, 18px, 21px, 24px, 36px, 48px, 60px, 72px
+
+h1 {
+    .HeaderFont;
+    font-size: 3em;
+    margin: 0.563em 0;
+}
+
+h2 {
+    .HeaderFont;
+    font-size: 2.25em;
+    margin: 0.625em 0;
+}
+
+h3 {
+    .HeaderFont;
+    font-size: 1.5em;
+    margin: 1.313em 0;
+}
+
+h4 {
+    .HeaderFont;
+    font-size: 1.313em;
+    margin: 1.313em 0;
+}
+
+h5 {
+    .HeaderFont;
+    font-size: 1.125em;
+    margin: 1.313em 0;
+}
+
+h6 {
+    .HeaderFont;
+    font-size: 1em;
+    margin: 0.75em 0;
+}

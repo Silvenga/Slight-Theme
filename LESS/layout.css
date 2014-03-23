@@ -1,0 +1,72 @@
+﻿/**
+// Styles
+**/
+body {
+  height: 100%;
+}
+.content {
+  padding: 2em 2.5em 1em 20em;
+}
+header {
+  border-right: 1px #eee solid;
+  padding: 2em;
+  position: fixed;
+  height: 100%;
+  width: 19em;
+}
+@media only screen and (max-width: 800px) {
+  header {
+    border-right: none;
+    border-bottom: 1px #eee solid;
+    position: relative;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding-bottom: 1em;
+  }
+  .content {
+    padding: 2em 2.5em 1em 2em;
+  }
+}
+.right-cell {
+  display: table-cell;
+}
+.left-cell {
+  display: table-cell;
+}
+.parent-table {
+  overflow: hidden;
+  position: relative;
+  display: table;
+  width: 100%;
+}
+.post {
+  border-bottom-color: #707070;
+  border-bottom-width: 2px;
+  padding-top: 1.6em;
+  padding-bottom: 0.618em;
+  border-bottom: 1px solid #eee;
+}
+.onhover > .post {
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+}
+.text-lefted {
+  text-align: left;
+}
+.text-righted {
+  text-align: right;
+}
+.text-centered {
+  text-align: center;
+}
+.text-justified {
+  text-align: justify;
+}
+.righted {
+  float: right;
+}
+.post {
+  margin: 0;
+}
+/*# sourceMappingURL=layout.css.map */
